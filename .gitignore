@@ -1,0 +1,44 @@
+# محیط مجازی پایتون
+venv/
+env/
+
+# فایل‌های محیطی و رمزنگاری شده
+.env
+*.env
+
+# کش پایتون و فایل‌های باینری
+__pycache__/
+*.py[cod]
+*$py.class
+
+# فایل‌های لاگ و خروجی‌ها
+*.log
+*.out
+
+# پوشه‌ها و فایل‌های مخصوص IDEها
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# سیستم‌عامل (ویندوز/مک)
+.DS_Store
+Thumbs.db
+
+# تست و گزارش
+htmlcov/
+coverage.xml
+.tox/
+.pytest_cache/
+
+# خروجی‌های Build یا Dist
+build/
+dist/
+*.egg-info/
+*.egg
+
+# فایل‌های موقتی توسعه‌دهنده
+*.bak
+*.tmp
+*.swp
+*.orig
