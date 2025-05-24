@@ -19,7 +19,7 @@ class MainPage(BasePage):
     SIGN_UP_BUTTON_NAV = (By.XPATH, "//nav//a[normalize-space()='Sign Up for Free']")
 
     # Hero Section
-    HERO_TITLE = (By.XPATH, "//h1[contains(text(),'AI-Powered Project Planning')]")
+    HERO_TITLE  = (By.XPATH, "//h1[contains(normalize-space(.), 'Travel Better with PlaninGo')]")
     HERO_SUBTITLE = (By.XPATH, "//p[contains(text(), 'Streamline your project management with AI-driven insights')]")
     HERO_GET_STARTED_FREE_BUTTON = (By.XPATH,
                                     "//div[h1[contains(text(),'AI-Powered Project Planning')]]//a[contains(text(),'Get Started Free')]")  # دکمه زیر عنوان اصلی
